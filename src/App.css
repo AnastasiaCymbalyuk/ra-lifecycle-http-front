@@ -1,0 +1,72 @@
+.wdg {
+    width: 600px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    margin: 20px;
+}
+
+.btn_reload {
+    height: 40px;
+}
+
+.notes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box_note {
+    display: flex;
+    background-color: rgb(208, 208, 208);
+    width: 50%;
+    padding: 10px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.btn_del {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+.lab_inp {
+    margin: 20px;
+}
+
+.box_inp_text {
+    position: relative;
+    width: 300px;
+    margin: 10px;
+}
+
+.inp_text {
+    width: 300px;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.btn_add_text {
+    position: absolute;
+    right: -5px;
+    bottom: -5px;
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+    border-radius: 10px;
+    font-size: 16px;
+}
